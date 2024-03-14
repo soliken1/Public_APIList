@@ -1,0 +1,112 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #0b0c10;
+}
+
+.rect_card {
+  width: 55vh;
+  height: 35vh;
+  background: #1f2833;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.body_layer > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 125px 50px 50px 50px;
+  gap: 25px;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #0b0c10;
+}
+
+.title-container {
+  margin-left: 10%;
+}
+
+.creator-container {
+  margin-left: 50%;
+}
+
+.overlap-normal {
+  max-width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.txt-style-none {
+  text-decoration: none;
+  color: #c70039;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  white-space: normal;
+  gap: 5px;
+  text-wrap: wrap;
+}
+
+.loading-screen {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.font-sans-serif {
+  font-family: sans-serif;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 0.5px;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.color-white {
+  color: white;
+}
+
+.mt-5 {
+  margin-top: 50%;
+}
+
+.mt-4 {
+  margin-top: 40%;
+}
+
+.mt-3 {
+  margin-top: 30%;
+}
+
+.mt-2 {
+  margin-top: 20%;
+}
+
+.mt-1 {
+  margin-top: 10%;
+}
